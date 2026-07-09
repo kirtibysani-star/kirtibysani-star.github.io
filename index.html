@@ -177,6 +177,21 @@
 
     <details class="case">
       <summary>
+        <span class="tag">Deployment Strategy · Diagnostic Instrument · Full-Stack</span>
+        <h3>AI Deployment Lifecycle Instrument</h3>
+        <p class="preview">A four-stage diagnostic tool that scores AI deployment readiness, flags the one constraint most likely to stall a rollout, and generates a phased plan and adoption outlook in response.</p>
+      </summary>
+      <div class="case-body">
+        <p><b>The problem:</b> Most AI portfolios, mine included until this, prove someone can build a model or an agent. Very few prove the other half of the job: diagnosing whether an organization is actually ready to deploy one, and knowing what to do when it isn't. Research from Forrester and Anaconda this year found that 88% of AI agent pilots never reach production, and the causes were almost never about model quality: unclear ownership, thin data access, and undefined success criteria accounted for nearly all of it.</p>
+        <p><b>What I built:</b> A single-file, four-stage instrument. Discovery screens the use case itself with an ICE priority score before any diagnostic time is spent on it. Readiness scores six dimensions (data, process, sponsorship, change appetite, tech maturity, risk tolerance) and flags whichever one is the actual binding constraint, even when the overall average looks healthy. Rollout Plan generates a phased response with real exit criteria instead of invented timelines. Adoption Outlook models a qualitative post-launch trajectory grounded in the readiness inputs, without pretending to forecast a specific number. Every scoring threshold, tie-break rule, and modeling choice is documented and defensible on its own terms, including the ones I got wrong on the first pass and rebuilt.</p>
+        <p><b>What happened:</b> A fully working diagnostic with no backend and no dependencies, stress-tested against a range of realistic and edge-case scenarios, alongside a companion study guide walking through the reasoning and limitations behind every design decision.</p>
+        <a class="case-link" href="https://kirtibysani-star.github.io/ai-deployment-lifecycle-instrument/" target="_blank">Try it live ↗</a>
+        <a class="case-link" href="https://github.com/kirtibysani-star/ai-deployment-lifecycle-instrument" target="_blank">View on GitHub ↗</a>
+      </div>
+    </details>
+
+    <details class="case">
+      <summary>
         <span class="tag">Generative AI · Full-Stack · Vibe Coding</span>
         <h3>SubcastAI</h3>
         <p class="preview">Turns your unread Substack subscriptions into a personalized daily podcast in under 60 seconds.</p>
